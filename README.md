@@ -1,6 +1,8 @@
 # Assistente de Consulta de Normas Técnicas (RAG)
 
-## Autor: Gustavo Rodrigues Ribeiro
+## Autor
+
+- [*Gustavo Rodrigues Ribeiro*](https://github.com/GustavooRibas)
 
 Este projeto implementa um assistente virtual baseado em RAG (Retrieval-Augmented Generation) para responder perguntas sobre normas técnicas específicas. Ele utiliza o framework LangChain para orquestrar o processo de busca em documentos e geração de respostas.
 
@@ -144,3 +146,7 @@ assistente_normas/
 *   **Custo da API:** O uso dos modelos da OpenAI (embedding e LLM) consome créditos da API, que podem ter custos associados. Monitore seu uso na plataforma da OpenAI.
 *   **Qualidade do PDF:** A qualidade da extração de texto depende da qualidade dos PDFs. PDFs baseados em imagem ou com formatação complexa podem não ser processados corretamente pelo `PyPDFLoader`.
 *   **Precisão:** A precisão da resposta depende da qualidade dos embeddings, da relevância dos chunks recuperados e da capacidade do LLM de seguir as instruções do prompt.
+
+## Contato
+
+- E-mail: gustavooriibeiro.ofc@hotmail.com
