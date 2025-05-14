@@ -1,10 +1,10 @@
 # Assistente de Consulta de Normas Técnicas (RAG)
 
+Este projeto implementa um assistente virtual baseado em RAG (Retrieval-Augmented Generation) para responder perguntas sobre normas técnicas específicas. Ele utiliza o framework LangChain para orquestrar o processo de busca em documentos e geração de respostas.
+
 ## Autor
 
 - [*Gustavo Rodrigues Ribeiro*](https://github.com/GustavooRibas)
-
-Este projeto implementa um assistente virtual baseado em RAG (Retrieval-Augmented Generation) para responder perguntas sobre normas técnicas específicas. Ele utiliza o framework LangChain para orquestrar o processo de busca em documentos e geração de respostas.
 
 ## Funcionalidades
 
