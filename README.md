@@ -38,7 +38,7 @@ Ou baixe os arquivos (`assistant.py`, `requirements.txt`, etc.) e coloque-os em 
 Dentro da pasta do projeto (`assistente_normas`), teremos as seguintes subpastas:
 
 *   `docs`: Esta pasta armazenará os arquivos PDF das normas técnicas. (O arquivo do projeto já possui, em formato PDF, as normas IEEE 802.15.3-2023, IEEE 7002-2022, IEEE 7001-2021, IEEE 1801-2024, IEEE 1685-2022 e IEEE 1666-2023)
-*   `vectorstore`: Esta pasta armazenará o índice vetorial criado pelo FAISS. (Pasta vazia até a execução do Assistente) **OBS: Se não existir, crie.**
+*   `vectorstore`: Esta pasta armazenará o índice vetorial criado pelo FAISS. (Pasta vazia até a execução do Assistente) - **OBS: Se não existir, crie.**
 
 ### 3. **Crie um ambiente virtual (opcional, mas recomendado)**
 
