@@ -1,7 +1,7 @@
 #--------------------------------------------
 # Autor: Gustavo Rodrigues Ribeiro
 
-# Exercicio 6: Desenvolvimento de um assistente virtual especializado para consulta de normas técnicas utilizando a estrutura RAG.
+# Desenvolvimento de um assistente virtual especializado para consulta de normas técnicas utilizando a estrutura RAG.
 
 # Normas Utilizadas: IEEE 802.15.3-2023, IEEE 7002-2022, IEEE 7001-2021, IEEE 1801-2024, IEEE 1685-2022 e IEEE 1666-2023.
 #--------------------------------------------
