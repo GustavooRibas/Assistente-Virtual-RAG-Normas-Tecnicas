@@ -1,0 +1,43 @@
+#--------------------------------------------
+# Autor: Gustavo Rodrigues Ribeiro
+
+# Exercicio 6: Desenvolvimento de um assistente virtual especializado para consulta de normas técnicas utilizando a estrutura RAG.
+
+# Normas Utilizadas: IEEE 802.15.3-2023, IEEE 7002-2022, IEEE 7001-2021, IEEE 1801-2024, IEEE 1685-2022 e IEEE 1666-2023.
+#--------------------------------------------
+
+#### Exemplos de Consultas e Respostas geradas pelo assistente: ####
+
+--- Exemplo 1 ---
+PERGUNTA: Qual o principal objetivo da norma IEEE Standard for Transparency of Autonomous Systems?
+
+RESPOSTA: O principal objetivo da norma IEEE Standard for Transparency of Autonomous Systems é estabelecer níveis mensuráveis e testáveis de transparência para sistemas autônomos. O princípio geral por trás dessa norma é que sempre deve ser possível entender por que e como o sistema se comportou da maneira que fez. (Fonte: IEEE Std 7001-2021 / Seção: 1.2 Purpose)
+
+(Fonte: Norma_IEEE_7001-2021.pdf)
+
+
+--- Exemplo 2 ---
+PERGUNTA: Quais tipos de redes sem fio são cobertos pela norma IEEE 802.15.3-2023?
+
+RESPOSTA: A norma IEEE 802.15.3-2023 cobre redes sem fio para multimídia. Além disso, as emendas IEEE Std 802.15.3e-2017 e IEEE Std 802.15.3d-2017, que são parte da norma, definem camadas físicas alternativas operando na banda de ondas milimétricas e na faixa de frequência THz inferior, respectivamente. A emenda IEEE Std 802.15.3e-2017 é projetada para operar na banda de 60 GHz, com taxas de dados atingindo até 100 Gb/s e limitando o alcance da comunicação a 10 centímetros ou menos. A emenda IEEE Std 802.15.3d-2017 é projetada para operar na banda de frequência THz, usando oito larguras de banda diferentes entre 2.16 GHz e 69.12 GHz, e é projetada para taxas de dados de até 100 Gb/s. Ambas as emendas utilizam uma estrutura de pairnet e são projetadas para suportar links sem fio para comunicação intra-dispositivo, comunicação de proximidade, centros de dados sem fio e links de backhaul/fronthaul. (Fonte: IEEE Std 802.15.3™-2023 / Seção: IEEE Std 802.15.3e-2017, IEEE Std 802.15.3d-2017)
+
+(Fonte: Norma_IEEE_802153-2023.pdf)
+
+--- Exemplo 3 ---
+PERGUNTA: A norma IEEE 1685-2022 especifica algum algoritmo criptográfico obrigatório para o pareamento seguro de dispositivos?
+
+RESPOSTA: Não encontrei essa informação nas normas disponíveis.
+
+--- Exemplo 4 ---
+PERGUNTA: Descreva um requisito fundamental do processo de privacidade de dados conforme a IEEE 7002-2022.
+
+RESPOSTA: Um requisito fundamental do processo de privacidade de dados conforme a IEEE 7002-2022 é que a organização identifique os requisitos de privacidade de um sistema específico, baseando-se nos requisitos de privacidade organizacional, nas especificidades do sistema, nos objetivos de negócio e em uma avaliação de risco. (Fonte: IEEE Std 7002-2022 / Seção: Figure 2—Organizational privacy framework components)
+
+(Fonte: Norma_IEEE_7002-2022.pdf)
+
+--- Exemplo 5 ---
+PERGUNTA: Para que serve o formato UPF definido na IEEE 1801-2024?
+
+RESPOSTA: O formato UPF (Unified Power Format) definido na IEEE 1801-2024 serve para permitir que os sistemas eletrônicos sejam projetados com a energia como uma consideração chave desde o início do processo. Ele realiza isso permitindo a especificação de informações de energia baseadas na implementação física tradicionalmente no início do processo de design - no nível de transferência de registro (RTL) ou antes. O UPF fornece um formato consistente para especificar informações de design de energia que podem não ser facilmente especificáveis em uma linguagem de descrição de hardware (HDL) ou quando é indesejável especificar diretamente a semântica de energia em um HDL, pois isso vincularia a especificação lógica diretamente a uma implementação de energia restrita. O UPF especifica um conjunto de atributos HDL e pacotes HDL para facilitar a expressão da intenção de energia em HDL quando apropriado. Além disso, o UPF define semânticas consistentes em verificação e implementação para verificar se o que é implementado é o mesmo que foi verificado. (Fonte: IEEE_Std_1801-2024.pdf / Seção: 1.4 Key characteristics of the unified power format)
+
+(Fonte: Norma_IEEE_1801-2024.pdf)

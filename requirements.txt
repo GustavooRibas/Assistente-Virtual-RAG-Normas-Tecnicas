@@ -1,0 +1,21 @@
+langchain # Biblioteca LangChain
+
+langchain-community # Componentes da comunidade para LangChain (loaders, vectorstores)
+
+langchain-openai # Integração OpenAI e LangChain (LLM, Embeddings)
+
+openai # Client da API do OpenAI
+
+pypdf # Carregar documentos .pdf
+
+# FAISS vector store (CPU version)
+# Use faiss-gpu if you have a compatible NVIDIA GPU and CUDA setup
+faiss-cpu
+
+# Alternative embedding models (e.g., Sentence Transformers)
+# Included as it was mentioned in setup/alternatives
+sentence-transformers
+
+tiktoken # Tokenizer usado por modelos OpenAI
+
+python-dotenv # Carregamento de variáveis ambiente
